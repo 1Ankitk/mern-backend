@@ -11,7 +11,7 @@
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm start\" \"npm run client\""
   },
-  "author": "",
+  "author": "Ankit Kumar",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
