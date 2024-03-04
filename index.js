@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://talkify-chatapp.netlify.app",
+    origin: process.env.ORIGIN,
     credentials: true,
   },
 });
